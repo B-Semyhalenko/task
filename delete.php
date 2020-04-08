@@ -13,5 +13,7 @@
 //    echo $sql;
 
     $mysql->close;
-    
+    header("Location: http://test/");
+    exit;
+
 ?>

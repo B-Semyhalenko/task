@@ -18,7 +18,8 @@
     $info = "Заполните поле";
     $mysql->query("INSERT INTO `more_information`(`image_name`, `h1`, `main_information`) VALUES ('$info', '$info', '$info')");
 
-
+    header("Location: http://test/");
+    exit;
 
 
 //isset()

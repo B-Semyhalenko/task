@@ -12,6 +12,7 @@
     $mysql->close;
 
 
-
+    header("Location: http://test/more_information.php?id=$_GET[id]");
+    exit;
 
 ?>
