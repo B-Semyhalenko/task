@@ -31,3 +31,6 @@
 </form>
 </body>
 </html>
+<?php
+    echo "<br><a href='more_information.php?id={$_GET['id']}'>Назад</a>"
+?>

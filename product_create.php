@@ -6,4 +6,7 @@
     <input type="radio" name="devices" value="Мыши"> Мыши <br> <br>
     <input type="checkbox" name="product_available" value="Товар в наличии"> Товар в наличии <br> <br>
     <input type="submit" name="save" value="Сохранить">
-</form> 
+</form>
+<form action="index.php">
+    <input type="submit" name="main_menu" value="В главное меню">
+</form>

@@ -5,5 +5,5 @@
     <input type="submit" name="product_create" value="Создать товар">
 </form> 
 <form action="product_information.php" method="get">
-    <input type="submit" name="product_information" value="Информация о товаре">
+    <input type="submit" name="product_information" value="Список товаров">
 </form>

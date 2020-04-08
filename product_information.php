@@ -63,4 +63,10 @@
     // закрываем соединение с сервером  базы данных
 
     $mysql->close;
+
+    echo "<br>
+           <form action=\"index.php\">
+            <input type=\"submit\" name=\"main_menu\" value=\"В главное меню\">
+          </form>";
+
 ?>

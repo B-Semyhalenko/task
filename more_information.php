@@ -54,8 +54,11 @@ echo "<a href=delete.php?id={$_GET['id']} method=get>Удалить товар</
 echo "<a href=create_more_information.php?id={$_GET['id']} method=get>Редактировать</a>";
 
 
-
-
 $mysql->close;
-    
+
+echo "<br>
+    <form action='product_information.php'>
+        <input type='submit' name='product_info' value='К списку товаров'>
+    </form>";
+
 ?>
